@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  image_file: MyString
+  qty: 1
+  price: 1
+  name: MyString
+  SSW: MyString
+
+two:
+  image_file: MyString
+  qty: 1
+  price: 1
+  name: MyString
+  SSW: MyString

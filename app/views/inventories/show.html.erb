@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Image file:</strong>
+  <%= @inventory.image_file %>
+</p>
+
+<p>
+  <strong>Qty:</strong>
+  <%= @inventory.qty %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @inventory.price %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @inventory.name %>
+</p>
+
+<p>
+  <strong>Ssw:</strong>
+  <%= @inventory.SSW %>
+</p>
+
+<%= link_to 'Edit', edit_inventory_path(@inventory) %> |
+<%= link_to 'Back', inventories_path %>
